@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #suraj{
+            height: 100vh;
+            background-color: purple;
+            color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        span{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 1000;
+            transition: 0.5s;
+            font-size: 70px;
+            animation: fall 2s;
+
+        }
+        span:hover{
+            color: blueviolet;
+            font-size: 50px;
+        }
+        #h{
+            animation: fall 0.2s;
+        }
+        #e{
+            animation: fall 0.4s;
+        }
+        #l1{
+            animation: fall 0.6s;
+        }
+        #l2{
+            animation: fall 0.8s;
+
+        }
+        #o{
+            animation: fall 1s;
+         }
+         #!{
+            animation: fall 1.2s;
+         }
+         @keyframes fall{
+            0%{
+                margin-top: -2000px;
+
+            }
+            100%{
+                margin-top: 0;
+            }
+         }
+    </style>
+</head>
+<body>
+    <div id="suraj">
+    <span id="h">s</span>
+    <span id="e">u</span>
+    <span id="l1">r</span>
+    <span id="l2">a</span>
+    <span id="o">j</span>
+    <span id="!">!</span>
+    </div>
+    
+</body>
+</html>
